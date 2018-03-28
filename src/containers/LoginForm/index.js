@@ -41,7 +41,7 @@ class LoginForm extends Component {
                          placeholder="password"/>
                 </form>
                 {
-                  loginState.error.message &&
+                  loginState.error &&
                   <div className="w3-panel w3-text-red">
                     <p className="w3-large">{loginState.error.message}</p>
                   </div>

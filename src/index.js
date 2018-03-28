@@ -1,9 +1,7 @@
-import LoginForm from './containers/LoginForm';
-import LoginReducer from './reducers/Login';
-import watchLogin from './sagas/Login';
+import _LoginForm from './containers/LoginForm';
+import _LoginReducer from './reducers/Login';
 
-export default {
-  LoginForm,
-  LoginReducer,
-  watchLogin
-}
+export {login, logout, firebaseApp} from './actions/Login';
+export {watchLogin} from './sagas/Login';
+export const LoginForm = _LoginForm;
+export const LoginReducer = _LoginReducer;

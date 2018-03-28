@@ -13,6 +13,7 @@ export const login = (email, pwd) => {
 import * as firebase from 'firebase';
 import config from '../../firebase.config';
 firebase.initializeApp(config);
+export const firebaseApp = firebase;
 export const loginApi = (account, pwd) => {
   return firebase.auth().signInWithEmailAndPassword(account, pwd);
 };

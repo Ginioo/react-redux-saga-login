@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import {login} from '../../actions/Login';
+import {login} from '~/src/actions/Login';
 // import 'w3css/w3.css';
 // import './style.scss';
 

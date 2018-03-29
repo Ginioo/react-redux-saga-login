@@ -11,7 +11,7 @@ export const login = (email, pwd) => {
 
 // todo: you could implement your own authentication logic here if you don't want to use firebase;
 import * as firebase from 'firebase';
-import config from '../../firebase.config';
+import config from '~/src/firebase.config';
 firebase.initializeApp(config);
 export const firebaseApp = firebase;
 export const loginApi = (account, pwd) => {

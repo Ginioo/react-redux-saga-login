@@ -10,7 +10,7 @@ import {
   LOGIN,
   LOGIN_SUCCESS,
   LOGIN_FAILED
-} from '../actions/Login';
+} from '~/src/actions/Login';
 
 const INITAIL_STATE = {
   isFetching: false,

@@ -1,11 +1,12 @@
 {
   "name": "react-redux-saga-login",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a simple login form using react, redux and redux-saga",
-  "main": "src/index.js",
+  "main": "dist/src/index.js",
   "repository": "",
   "scripts": {
     "start": "babel-node src/index.js",
+    "build": "babel . -d dist --ignore tests,node_modules",
     "test:watch": "mocha tests/**/*.js --require babel-polyfill --compilers js:babel-register"
   },
   "author": "Gino Wu",

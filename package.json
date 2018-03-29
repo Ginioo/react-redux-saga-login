@@ -1,6 +1,6 @@
 {
   "name": "react-redux-saga-login",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a simple login form using react, redux and redux-saga",
   "main": "dist/src/index.js",
   "repository": "",

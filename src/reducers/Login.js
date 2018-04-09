@@ -24,7 +24,7 @@ export default (state = INITAIL_STATE, action) => {
       return {...state, isFetching: true};
 
     case LOGIN_SUCCESS:
-      return {...state, isFetching: false, token: action.payload.la.Ca};
+      return {...state, isFetching: false, token: action.payload.uid};
 
     case LOGIN_FAILED:
       return {...state, isFetching: false, error: action.error};

@@ -1,6 +1,6 @@
 {
   "name": "react-redux-saga-login",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "a React login form using Redux, Redux-Saga pattern, and authenticate with Google firebase",
   "main": "dist/src/index.js",
   "repository": "",
@@ -25,7 +25,6 @@
     "react": "^16.2.0",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
-    "redux-saga": "^0.16.0",
-    "w3css": "^2.7.0"
+    "redux-saga": "^0.16.0"
   }
 }
